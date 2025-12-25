@@ -1,0 +1,22 @@
+        Python Inner Works :
+
+[Python chai.py] ==>Byte Code {mostly hidden} ==>[Python VM{Virtual Machine}]
+
+1.Compile to Byte Code{ low level and platform Independent.}
+==>Byte Code run faster:
+i) .pyc[-->Compiled Python( frozen binaries)]
+ii)__Pycache__ [{underscore underscore}_ _ Pycache _ _{underscore underscore}]
+iii)Source change and Python version:
+hello_chai.cpython-3.12.pyc
+hello_chai[Source change].cpython-3.12.pyc[Python version]
+-->Works only for imported files.
+-->Not for top level files.
+
+==>PVM{Python Virtual Machine}:
+-->Code loop to iterate byte Code
+-->Run time Engine
+-->Also known as python interpreter
+
+==>Byte Code is "NOT" Machine Code:
+-->python specific interpretation
+-->cpython{Standard Implementation},jython,IronPython,Stackless,PyPy
